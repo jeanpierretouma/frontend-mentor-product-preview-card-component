@@ -58,5 +58,5 @@ body {
 .product-card-info {
   display: flex;
   flex-direction: column;
-  padding: 2.5rem 2.286rem 2.286rem;
+  padding: 2.286rem;
 }
