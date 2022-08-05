@@ -102,3 +102,26 @@ body {
   margin-right: 1.429rem;
   color: var(--dark-cyan);
 }
+
+.cta-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 0.571rem;
+  width: 100%;
+  padding: 1.071rem 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+  color: var(--white);
+  background-color: var(--dark-cyan);
+  cursor: pointer;
+}
+
+.cta-button:hover,
+.cta-button:active {background-color: var(--very-dark-cyan);}
+
+.cta-button img {
+  display: inline-block;
+  margin-right: 0.857rem;
+}
