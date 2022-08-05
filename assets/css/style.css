@@ -61,3 +61,22 @@ body {
   flex-direction: column;
   padding: 2.286rem;
 }
+
+.card-header {margin-bottom: 2.286rem;}
+
+.product-type {
+  margin-bottom: 2.143rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 78%;
+  letter-spacing: 0.429rem;
+  text-transform: uppercase;
+  color: var(--dark-grayish-blue);
+}
+
+.product-title {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 230%;
+  color: var(--very-dark-blue);
+}
