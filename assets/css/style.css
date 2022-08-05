@@ -127,3 +127,64 @@ body {
   display: inline-block;
   margin-right: 0.857rem;
 }
+
+
+/* ##### Media Queries ##### */
+
+/* --- For viewport height lower than 593px --- */
+@media only screen and (max-height: 593px) {
+  
+  /* Global Settings */
+  body {
+    align-items: initial;
+    height: auto;
+  }
+
+  /* Product Preview Card */
+  .product-preview-card {margin: 3.786rem 0;}
+}
+
+/* --- For tablets and smartphones from 632px width and lower --- */
+@media only screen and (max-width: 632px) {
+
+  /* Product Preview Card */
+  .product-preview-card {
+    margin-right: 1.143rem;
+    margin-left: 1.143rem;
+  }
+}
+
+/* --- For tablets and smartphones from 557px width and lower --- */
+@media only screen and (max-width: 557px) {
+
+  /* Global Settings */
+  body {
+    align-items: initial;
+    height: auto;
+  }
+
+  /* Product Preview Card */
+  .product-preview-card {
+    flex-direction: column;
+    margin: 3.786rem 0;
+    max-width: 24.5rem;
+  }
+
+  .product-card-image,
+  .product-card-info {width: 100%;}
+
+  .product-card-info {padding: 1.714rem;}
+
+  .card-header,
+  .product-desc {margin-bottom: 1.714rem;}
+
+  .product-type,
+  .product-prices {margin-bottom: 1.429rem;}
+}
+
+/* --- For smartphones from 375 width and lower --- */
+@media only screen and (max-width: 375px) {
+
+  /* Product Preview Card */
+  .product-preview-card {margin: 3.786rem 1.143rem;}
+}
