@@ -50,7 +50,7 @@ body {
 .product-card-image,
 .product-card-info {width: 50%;}
 
-/* Card Image */
+/* --- Card Image --- */
 .product-card-image picture source,
 .product-card-image picture img {
   width: 100%;
@@ -58,7 +58,7 @@ body {
   object-fit: cover;
 }
 
-/* Card Info */
+/* --- Card Info --- */
 .product-card-info {
   display: flex;
   flex-direction: column;
@@ -85,6 +85,7 @@ body {
   font-size: 230%;
 }
 
+/* Card Header */
 .product-type {
   font-size: 78%;
   letter-spacing: 0.429rem;
@@ -93,8 +94,10 @@ body {
 
 .product-title {color: var(--very-dark-blue);}
 
+/* Card Description */
 .product-desc {line-height: 1.6;}
 
+/* Card Prices */
 .product-prices {
   display: flex;
   align-items: center;
@@ -105,6 +108,7 @@ body {
   color: var(--dark-cyan);
 }
 
+/* Card CTA Button */
 .cta-button {
   display: flex;
   justify-content: center;
