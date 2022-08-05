@@ -66,24 +66,39 @@ body {
 .product-desc {margin-bottom: 2.286rem;}
 
 .product-type,
-.product-desc {
+.product-prices {margin-bottom: 2.143rem;}
+
+.product-type,
+.product-desc,
+.init-price {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: var(--dark-grayish-blue);
 }
 
+.product-title,
+.new-price {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 230%;
+}
+
 .product-type {
-  margin-bottom: 2.143rem;
   font-size: 78%;
   letter-spacing: 0.429rem;
   text-transform: uppercase;
 }
 
-.product-title {
-  font-family: "Fraunces", serif;
-  font-weight: 700;
-  font-size: 230%;
-  color: var(--very-dark-blue);
-}
+.product-title {color: var(--very-dark-blue);}
 
 .product-desc {line-height: 1.6;}
+
+.product-prices {
+  display: flex;
+  align-items: center;
+}
+
+.new-price {
+  margin-right: 1.429rem;
+  color: var(--dark-cyan);
+}
