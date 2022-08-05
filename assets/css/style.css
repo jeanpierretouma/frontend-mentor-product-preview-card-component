@@ -62,16 +62,21 @@ body {
   padding: 2.286rem;
 }
 
-.card-header {margin-bottom: 2.286rem;}
+.card-header,
+.product-desc {margin-bottom: 2.286rem;}
+
+.product-type,
+.product-desc {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: var(--dark-grayish-blue);
+}
 
 .product-type {
   margin-bottom: 2.143rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
   font-size: 78%;
   letter-spacing: 0.429rem;
   text-transform: uppercase;
-  color: var(--dark-grayish-blue);
 }
 
 .product-title {
@@ -80,3 +85,5 @@ body {
   font-size: 230%;
   color: var(--very-dark-blue);
 }
+
+.product-desc {line-height: 1.6;}
