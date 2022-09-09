@@ -63,7 +63,7 @@ I'm satisfied with the way I built this project because it looks quite close to 
 ### Useful resources
 
 - [Flexbox Froggy](https://flexboxfroggy.com/) - This Flexbox game helped me understand how Flexbox properties work in different scenarios. I'd recommend it to anyone still learning Flexbox.
-- [<picture>: The Picture element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) - The Picture element doc helped me understand how to use the Picture element properly. I'd recommend it to anyone looking for the best way to make images responsive in their projects.
+- [The Picture element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) - The Picture element doc helped me understand how to use the Picture element properly. I'd recommend it to anyone looking for the best way to make images responsive in their projects.
 
 ## Author
 
